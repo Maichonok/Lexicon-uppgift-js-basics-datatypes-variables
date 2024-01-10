@@ -45,21 +45,22 @@ If the answer is no, the boolean value is false.
 */
 
 // Exercise #7
-let number1, number2;
-let result = number1 + number2;
+const number1 = 25,
+      number2 = 5;
+const result = number1 + number2;
+console.log(result);
 
 // Exercise #8
-let result1 = number1 - number2;
-let result2 = number1 + number2;
-let result3 = number1 / number2;
+const result1 = number1 - number2;
+const result2 = number1 + number2;
+const result3 = number1 / number2;
+console.log(result1, result2, result3);
 
 // Exercise #9
 let a = 1;
 console.log(a);
-
-a = 5;
-console.log(a);
-
+a += 5;
+console.log(a); //6
 
 // Exercise #10, answer is 9
 // Exercise #11 => we can every time change our value, when it assinged in let, not const.
